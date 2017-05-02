@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <textarea class="form-control" [(ngModel)]="content"></textarea>
+    </div>
+    <div class="col-md-6">
+      <app-markdown-viewer [content]="content"></app-markdown-viewer>
+    </div>
+  </div>
+</div>

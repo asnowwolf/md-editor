@@ -1,0 +1,101 @@
+@import "../../../../styles/common";
+
+:host {
+  display: block;
+}
+
+/deep/ {
+  * {
+    color: $gray-light;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    line-height: 1.65em;
+    margin-bottom: 15px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: $gray-dark;
+    line-height: 1.65em;
+  }
+  figure {
+    img {
+      max-width: 100%;
+    }
+    figcaption {
+      text-align: center;
+    }
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2em 0;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 2em 0;
+    color: $brand-primary;
+  }
+
+  h5, h6 {
+    font-size: 1rem;
+  }
+
+  hr {
+    border: none;
+    height: 11px;
+    margin: 2em 0;
+    border-left: 30px solid rgb(26, 115, 186);
+    background: $brand-primary;
+  }
+
+  blockquote {
+    padding: 40px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    > img {
+      &:first-child, &:last-child {
+        position: absolute;
+        width: 50px;
+        height: 40px;
+      }
+      &:first-child {
+        left: 0;
+        bottom: 0;
+      }
+      &:last-child {
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+  ul, ol {
+    margin-left: 1em;
+    padding-left: 3em;
+    border-left: 5px solid $brand-primary;
+    > li {
+      color: $brand-primary;
+      > span {
+        color: $gray-light;
+      }
+    }
+  }
+
+  .wechat-link {
+    color: $link-color;
+  }
+
+  a {
+    color: $link-color;
+  }
+
+  pre {
+    border: 1px solid $gray-lighter;
+    border-radius: 3px;
+    padding: 6px 10px;
+    overflow: auto;
+  }
+}
