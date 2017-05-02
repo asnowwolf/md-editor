@@ -4,6 +4,10 @@
   display: block;
 }
 
+div {
+  padding: 0 1em;
+}
+
 /deep/ {
   * {
     color: $gray-light;
