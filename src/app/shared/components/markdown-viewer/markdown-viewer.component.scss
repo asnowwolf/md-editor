@@ -5,7 +5,7 @@
 }
 
 div {
-  padding: 0 1em;
+  padding: 0 2em;
 }
 
 /deep/ {
@@ -27,6 +27,9 @@ div {
     }
     figcaption {
       text-align: center;
+      a {
+        color: inherit;
+      }
     }
   }
 
@@ -61,11 +64,9 @@ div {
     background-color: transparent;
     position: relative;
     > img {
-      &:first-child, &:last-child {
-        position: absolute;
-        width: 50px;
-        height: 40px;
-      }
+      position: absolute;
+      width: 50px;
+      height: 40px;
       &:first-child {
         left: 0;
         bottom: 0;
@@ -76,6 +77,10 @@ div {
       }
     }
   }
+  pre {
+    background: #f1f1f1;
+  }
+
   ul, ol {
     margin-left: 1em;
     padding-left: 3em;
