@@ -12,7 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "file:///Users/twer/private/GDE/angular-cli/dist/@angular/cli",
+    "@angular/cli": "git+https://github.com/asnowwolf/ng-cli-2.git#v1.0.1",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
