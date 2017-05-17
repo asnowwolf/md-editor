@@ -43,6 +43,7 @@
   "devDependencies": {
     "@angular/cli": "git+https://github.com/asnowwolf/ng-cli-2.git#v1.0.0",
     "@angular/compiler-cli": "^4.0.0",
+    "@ngtools/json-schema": "^1.0.9",
     "@types/jasmine": "2.5.38",
     "codelyzer": "~2.0.0",
     "jasmine-core": "~2.5.2",
